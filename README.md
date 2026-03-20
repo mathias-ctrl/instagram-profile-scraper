@@ -1,5 +1,3 @@
-# Instagram Profile Scraper
-
 ## ⚠️ Aviso Legal
 
 Este projeto é **apenas para fins educacionais e de pesquisa**. O uso inadequado pode violar os termos de serviço do Instagram. Respeite os limites de taxa (rate limits) e utilize proxies quando necessário. O autor não se responsabiliza por mau uso da ferramenta.
