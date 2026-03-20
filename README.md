@@ -1,7 +1,5 @@
 # Instagram Profile Scraper
 
-Ferramenta simples para extrair dados públicos de perfis do Instagram usando a API interna da plataforma.
-
 ## ⚠️ Aviso Legal
 
 Este projeto é **apenas para fins educacionais e de pesquisa**. O uso inadequado pode violar os termos de serviço do Instagram. Respeite os limites de taxa (rate limits) e utilize proxies quando necessário. O autor não se responsabiliza por mau uso da ferramenta.
@@ -113,32 +111,9 @@ python scraper.py
 
 Se você receber o erro `HTTP Error 401`, significa que seu IP foi temporariamente bloqueado pelo Instagram. Isso ocorre quando muitas requisições são feitas em pouco tempo.
 
-**Soluções:**
-1. Use um proxy (recomendado)
-2. Aguarde alguns minutos e tente novamente
-3. Reduza a frequência de requisições
-
 ### Serviços de Proxy Gratuitos
 
 - [Webshare.io](https://www.webshare.io/) - Oferece 10 proxies gratuitos
-
-## Requisitos
-
-- Python 3.7 ou superior
-- curl_cffi
-- python-dotenv
-
-## Estrutura do Projeto
-
-```
-instagram-profile-scraper/
-├── .env.example      # Exemplo de configuração de proxy
-├── .gitignore        # Arquivos ignorados pelo git
-├── README.md         # Documentação
-├── LICENSE           # MIT License
-├── requirements.txt  # Dependências do projeto
-└── scraper.py        # Código principal
-```
 
 ## Licença
 
